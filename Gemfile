@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 
 gem 'rails', '4.0.4'
-
+gem 'spork'
+gem 'minitest'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
