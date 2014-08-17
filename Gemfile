@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 
 gem 'rails', '4.0.4'
+gem 'bootstrap-sass', '2.3.2.0'
 #gem 'spork'
 #gem 'minitest'
 group :development, :test do
@@ -19,7 +20,7 @@ group :test do
 end
 gem 'libnotify', '0.8.0'
 
-gem 'sass-rails', '4.0.1'
+gem 'sass-rails', '~>4.0.3'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '2.2.1'
